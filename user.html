@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello</title>
+	<link rel="Stylesheet" href="design.css">
+	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+	<script src="ready1.js"></script>
+</head>
+<body ng-app="myApp">
+<div class="page1">
+	<h2>You’re Officially <h2><span class="hidden">AWESOME</span>
+	<h1 id="honor" ng-controller="myCntrl2">{{result}}</h1>
+	<p id="honor1">We’re honored to present you an award for being an amazing</p>
+	<h2 class="skill">Person</h2>
+	
+	<p class="small" ng-controller="myCntrl2">High five for being such a tremendously awesome individual. You are a strong, caring and loving person. Period. No one else comes close to being as awesome as you are at being a person. That <b>{{result1}}</b> did not deserve you in the first place. You are going to meet someone wonderful. Someone who will respect and love you for who you are.Till then, Keep Rocking !!</p>
+		
+		<p class="official">Awesomeness Personified </p>
+		
+		<div id="signature1">
+		<p>
+		<span class="subtitle" ng-controller="myCntrl2">{{result}}, Winner at Life</span>
+		</p>
+		</div>
+		
+		<div id="signature2">
+		<p>
+		<span class="subtitle">Me, Great Judge of Character</span>
+		</p>
+		</div>
+</div>
+	<div id="screenshot">
+		<p>Want a copy of this certificate? Take a screen shot. Don’t know how to take a screen shot? <a href="http://www.take-a-screenshot.org" target="_blank">Now you know</a>. I hope your mind is appropriately blown by your new screen-shotting abilities.</p>
+	</div>
+</body>
+</html>

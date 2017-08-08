@@ -1,0 +1,106 @@
+html{
+	background:url("1.jpg") no-repeat center center fixed; 
+	background-size:cover;
+}
+
+.page{
+	background:url('hearts.jpg');
+	width: 700px;
+	height: 500px;
+	margin: 0px auto;
+	position:relative;
+	padding: 5px;
+}
+
+.page1{
+	background:url("cer.jpg") no-repeat;
+	width: 800px;
+	height: 600px;
+	margin: 0px auto;
+	position:relative;
+	
+}
+
+#main{
+	font-size: 45px;
+	padding-left: 120px;
+	padding-top:45px;
+
+}
+
+h1{
+	font-size: 45px;
+	padding-left: 40px;
+}
+
+.caption{
+	text-align: right;
+	font-style: italic;
+}
+
+.text{
+	padding-left: 100px;
+}
+
+#form{
+	padding-left: 100px;
+}
+
+.small{
+	font-style: italic;
+	text-align:center;
+	padding:5px 35px;
+
+}
+h2{
+	text-align:center;
+	padding-top:15px;
+}
+
+.hidden{
+	font-size:22px;
+}
+
+#honor{
+	text-align:center;
+	padding-top:35px;
+}
+
+#honor1{
+	text-align:center;
+}
+
+
+#signature1{
+	position:absolute;
+	bottom: 45px;
+	left: 71px;
+	border-top: 1px solid;
+}
+
+#signature2{
+	position: absolute;
+	bottom: 45px;
+	right: 77px;
+	text-align: right;
+	border-top: 1px solid;
+}
+
+#signature1 p, #signature2 p{
+	font-size: 12px;
+}
+
+.subtitle{
+	font-style:italic;
+}
+
+.official{
+	position:absolute;
+	bottom: 62px;
+	left: 340px;
+	font-size: 12px;
+}
+
+.official-2{
+	margin-left: 77px;
+}

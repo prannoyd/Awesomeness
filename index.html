@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Award me</title>
+	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+	<script type="text/javascript" src="ready1.js"></script>
+	<link rel="Stylesheet" href="design.css">
+</head>
+<body class="award-page" ng-app="myApp" ng-controller="myCntrl1">
+	<div class="page">
+		<h1 id="main">A Relationship Award</h1>
+		<p class="caption"> ....Because you deserve it!</p>
+
+		<p class="text">Did you just end it ? Dumped someone or got dumped. Did you give it your everything and did not even get anything at the end ? Well here's an award for you. If you think you deserve an award, fill in your name and the name of that a**-hole below and you'll be given an award. Coz honestly, nobody in the real world will offer you any and we all need some self-love.</p>
+
+			<div id="form">
+				Name: <input type="text" ng-model="loc.UserName">
+				A**-hole's name: <input type="text" ng-model="loc.Pwd">
+				<br><br>
+					<input type="submit" id="submit" value="Award me" ng-click="check()">
+			<div>
+	</div>
+</body>
+</html>
